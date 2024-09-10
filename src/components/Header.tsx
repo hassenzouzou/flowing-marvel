@@ -38,12 +38,12 @@ const Header = () => {
           }`}
         >
           <img
-            className="w-[24px] h-[24px] mr-[16px]"
+            className="w-[24px] h-[24px]"
             src={aboutUs}
             alt="About Us"
           />
           {activeIcon === "aboutUs" && (
-            <p className="text-[16px] font-medium bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] bg-clip-text text-transparent transition-opacity duration-300 opacity-100">
+            <p className="text-[16px] ml-[16px] font-medium bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] bg-clip-text text-transparent transition-opacity duration-300 opacity-100">
               About Us
             </p>
           )}
@@ -57,12 +57,12 @@ const Header = () => {
           }`}
         >
           <img
-            className="w-[24px] h-[24px] mr-[16px]"
+            className="w-[24px] h-[24px]"
             src={services}
             alt="Services"
           />
           {activeIcon === "services" && (
-            <p className="text-[16px] font-medium bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] bg-clip-text text-transparent transition-opacity duration-300 opacity-100">
+            <p className="text-[16px] ml-[16px] font-medium bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] bg-clip-text text-transparent transition-opacity duration-300 opacity-100">
               Services
             </p>
           )}
@@ -76,12 +76,12 @@ const Header = () => {
           }`}
         >
           <img
-            className="w-[24px] h-[24px] mr-[16px]"
+            className="w-[24px] h-[24px]"
             src={contactUs}
             alt="Contact Us"
           />
           {activeIcon === "contactUs" && (
-            <p className="text-[16px] font-medium bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] bg-clip-text text-transparent transition-opacity duration-300 opacity-100">
+            <p className="text-[16px] ml-[16px] font-medium bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] bg-clip-text text-transparent transition-opacity duration-300 opacity-100">
               Contact Us
             </p>
           )}

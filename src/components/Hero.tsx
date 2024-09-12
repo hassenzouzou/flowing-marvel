@@ -12,9 +12,9 @@ import RotatingWords from "./rotatingWords";
 
 const Hero = () => {
   return (
-    <div className="relative pb-[1000px]">
+    <div className="relative sm:pb-[280px] pb-[325px]">
       <img className="absolute z-10 sm:block hidden" src={heroBg} alt="" />
-      <img className="absolute z-10 sm:hidden block" src={heroBgMobile} alt="" />
+      <img className="absolute w-full z-10 sm:hidden block" src={heroBgMobile} alt="" />
       <img
         className="absolute z-20 sm:top-[70px] top-[59px] sm:left-[350px] left-[59px] "
         src={arrow}

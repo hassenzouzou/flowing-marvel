@@ -20,6 +20,15 @@ import programmingIcon from "../assets/icons/programmingIcon.png";
 import graphicDesignIcon from "../assets/icons/graphicDesignIcon.png";
 import marketingIcon from "../assets/icons/marketingIcon.png";
 import videoEditingIcon from "../assets/icons/videoEditingIcon.png";
+import arrowBtn from "../assets/icons/arrowBtn.png";
+import ourResponseIcon from "../assets/icons/ourResponseIcon.png";
+import privacyAsIcon from "../assets/icons/privacyAsIcon.png";
+import linkedInBtn from "../assets/icons/linkedInBtn.png";
+import instagramBtn from "../assets/icons/instagramBtn.png";
+import facebookBtn from "../assets/icons/facebookBtn.png";
+import xBtn from "../assets/icons/xBtn.png";
+import youtubeBtn from "../assets/icons/youtubeBtn.png";
+import socialMediaBg from "../assets/icons/socialMediaBg.png";
 
 export {
   logo,
@@ -43,6 +52,15 @@ export {
   graphicDesignIcon,
   marketingIcon,
   videoEditingIcon,
+  arrowBtn,
+  ourResponseIcon,
+  privacyAsIcon,
+  linkedInBtn,
+  instagramBtn,
+  facebookBtn,
+  xBtn,
+  youtubeBtn,
+  socialMediaBg,
 };
 
 // images

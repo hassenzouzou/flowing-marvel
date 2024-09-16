@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div className="relative sm:pb-[280px] pb-[325px]">
       <img
-        className="absolute z-10 sm:hidden md:block hidden w-full md:h-[1150px] lg:h-auto"
+        className="absolute z-10 sm:hidden md:block hidden w-full md:h-[1150px]"
         src={heroBg}
         alt=""
       />
@@ -34,7 +34,7 @@ const Hero = () => {
         alt=""
       />
       <img
-        className="absolute z-20 top-[200px] left-[150px] md:hidden lg:block hidden"
+        className="absolute z-20 top-[200px] lg:left-[100px] md:hidden lg:block hidden"
         src={network}
         alt=""
       />
@@ -44,12 +44,12 @@ const Hero = () => {
         alt=""
       />
       <img
-        className="absolute z-20 sm:top-[40%] md:top-[40%] lg:top-[460px] top-[351.58px] sm:left-[20%] lg:left-[300px] left-[18px] "
+        className="absolute z-20 sm:top-[40%] md:top-[40%] lg:top-[360px] top-[351.58px] sm:left-[20%] lg:left-[300px] left-[18px] "
         src={virified}
         alt=""
       />
       <img
-        className="absolute z-20 top-[460px] md:top-[40%] lg:top-[460px] md:right-[20%] lg:right-[350px] sm:hidden md:block hidden"
+        className="absolute z-20 top-[460px] md:top-[40%] lg:top-[360px] md:right-[20%] lg:right-[350px] sm:hidden md:block hidden"
         src={cmd}
         alt=""
       />

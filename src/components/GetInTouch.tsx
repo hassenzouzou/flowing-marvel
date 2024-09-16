@@ -19,7 +19,7 @@ const getInTouch = () => {
           <img className="absolute top-0" src={cardsBg} alt="" />
 
           <div className="w-full flex flex-row flex-wrap sm:justify-between justify-center mb-[50px] sm:gap-[50px] gap-y-[20px]">
-            <div className="flex flex-col sm:w-[28%] w-[92%]">
+            <div className="flex flex-col w-[92%] sm:w-[45%] md:w-[28%]">
               <label>Name:</label>
               <div className="w-full bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
                 <input
@@ -30,7 +30,7 @@ const getInTouch = () => {
               </div>
             </div>
 
-            <div className="flex flex-col sm:w-[28%] w-[92%]">
+            <div className="flex flex-col w-[92%] sm:w-[45%] md:w-[28%]">
               <label>Email:</label>
               <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
                 <input
@@ -41,7 +41,7 @@ const getInTouch = () => {
               </div>
             </div>
 
-            <div className="flex flex-col sm:w-[28%] w-[92%]">
+            <div className="flex flex-col w-[92%] sm:w-[45%] md:w-[28%]">
               <label>Phone Number:</label>
               <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
                 <input
@@ -52,7 +52,7 @@ const getInTouch = () => {
               </div>
             </div>
 
-            <div className="flex flex-col sm:w-[28%] w-[92%]">
+            <div className="flex flex-col w-[92%] sm:w-[45%] md:w-[28%]">
               <label>Select Service:</label>
               <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] mt-[10px]">
                 <select className="rounded-[100px] px-[15px] py-[10px] w-full bg-[#0F0F0F] font-['Roboto'] outline-none ">
@@ -66,7 +66,7 @@ const getInTouch = () => {
               </div>
             </div>
 
-            <div className="flex flex-col sm:w-[28%] w-[92%]">
+            <div className="flex flex-col w-[92%] sm:w-[45%] md:w-[28%]">
               <label>Company / Organization Name:</label>
               <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
                 <input
@@ -77,7 +77,7 @@ const getInTouch = () => {
               </div>
             </div>
 
-            <div className="flex flex-col sm:w-[28%] w-[92%]">
+            <div className="flex flex-col w-[92%] sm:w-[45%] md:w-[28%]">
               <label>Subject:</label>
               <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
                 <input

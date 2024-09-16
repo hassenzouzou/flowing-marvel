@@ -6,8 +6,6 @@ import services from "../assets/icons/services.png";
 import contactUs from "../assets/icons/contact-us.png";
 import heroBg from "../assets/icons/herobg.png";
 import heroBgMobile from "../assets/icons/bgHeroMobile.png";
-import cardBgWhoWeAre from "../assets/icons/cardBgWhoWeAre.png";
-import cardBgWhoWeAreMobile from "../assets/icons/cardBgWhoWeAreMobile.png";
 import cardsBg from "../assets/icons/cardsBg.png";
 import arrow from "../assets/icons/arrow.png";
 import network from "../assets/icons/network.png";
@@ -44,8 +42,6 @@ export {
   cmd,
   heroBg,
   heroBgMobile,
-  cardBgWhoWeAre,
-  cardBgWhoWeAreMobile,
   cardsBg,
   servicesBg,
   programmingIcon,

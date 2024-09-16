@@ -1,5 +1,4 @@
-
-const RotatingWords: React.FC = () => {
+const RotateWords = () => {
   return (
     <div className="flex items-center justify-center sm:h-[400px] md:h-[440px] h-[400px] font-['Viga'] z-20">
       <div className="text-center flex sm:flex-row flex-col">
@@ -27,4 +26,4 @@ const RotatingWords: React.FC = () => {
   );
 };
 
-export default RotatingWords;
+export default RotateWords;

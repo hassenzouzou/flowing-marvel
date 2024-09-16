@@ -8,7 +8,7 @@ import {
   virified,
   cmd,
 } from "../constants";
-import RotatingWords from "./RotatingWords";
+import RotateWords from "./RotateWords";
 
 const Hero = () => {
   return (
@@ -54,7 +54,7 @@ const Hero = () => {
         alt=""
       />
       <div className="flex flex-col justify-center items-center ">
-        <RotatingWords />
+        <RotateWords />
         <div className="flex flex-col justify-between items-center font-normal font-['Sora'] text-[#FFFF]">
           <p className="sm:text-[20px] text-[14px] pb-[20px] z-20">
             Unlock Your Digital Potential Today

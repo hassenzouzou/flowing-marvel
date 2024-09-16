@@ -11,7 +11,7 @@ import WhyChoseFM from "./components/WhyChoseFM";
 function App() {
   return (
     <>
-      <div className="bg-[#0F0F0F] h-full relative hide-scrollbar overflow-auto">
+      <div className="bg-[#0F0F0F] h-full relative overflow-hidden">
         <Header />
         <Hero />
         <WhoWeAre />

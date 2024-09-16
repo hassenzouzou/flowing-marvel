@@ -15,102 +15,103 @@ const getInTouch = () => {
         Let's start the journey of success together!
       </p>
       <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[20px] w-[90%] relative mb-[50px] ">
-        <div className="flex flex-col items-center h-auto bg-[#0F0F0F] rounded-[20px] sm:pb-[30px] pb-[12px] ">
-          <img src={cardsBg} alt="" />
-          <div className="absolute top-[50px] sm:left-[50px] left-[10px] right-[50px] text-[#FFFF]">
-            <div className="flex flex-row flex-wrap justify-between mb-[50px] sm:gap-[50px] gap-[20px]">
-              <div className="flex flex-col">
-                <label>Name:</label>
-                <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
-                  <input
-                    className="rounded-[100px] px-[15px] py-[10px] w-[350px] bg-[#0F0F0F] font-['Roboto'] outline-none "
-                    type="text"
-                    placeholder="Enter Your Name"
-                  />
-                </div>
-              </div>
+        <div className="flex flex-col items-center bg-[#0F0F0F] rounded-[20px] sm:py-[30px] py-[12px] sm:px-[30px] px-[15px] text-[#FFFF]">
+          <img className="absolute top-0" src={cardsBg} alt="" />
 
-              <div className="flex flex-col">
-                <label>Email:</label>
-                <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
-                  <input
-                    className="rounded-[100px] px-[15px] py-[10px] w-[350px] bg-[#0F0F0F] font-['Roboto'] outline-none "
-                    type="text"
-                    placeholder="Enter Your Email"
-                  />
-                </div>
-              </div>
-
-              <div className="flex flex-col">
-                <label>Phone Number:</label>
-                <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
-                  <input
-                    className="rounded-[100px] px-[15px] py-[10px] w-[350px] bg-[#0F0F0F] font-['Roboto'] outline-none "
-                    type="number"
-                    placeholder="Enter Your Phone Number"
-                  />
-                </div>
-              </div>
-
-              <div className="flex flex-col">
-                <label>Select Service:</label>
-                <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] mt-[10px]">
-                  <select className="rounded-[100px] px-[15px] py-[10px] w-[350px] bg-[#0F0F0F] font-['Roboto'] outline-none ">
-                    <option value="" disabled selected hidden>
-                      Select an option
-                    </option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                  </select>
-                </div>
-              </div>
-
-              <div className="flex flex-col">
-                <label>Company / Organization Name:</label>
-                <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
-                  <input
-                    className="rounded-[100px] px-[15px] py-[10px] w-[350px] bg-[#0F0F0F] font-['Roboto'] outline-none "
-                    type="text"
-                    placeholder="Enter Name"
-                  />
-                </div>
-              </div>
-
-              <div className="flex flex-col">
-                <label>Subject:</label>
-                <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
-                  <input
-                    className="rounded-[100px] px-[15px] py-[10px] w-[350px] bg-[#0F0F0F] font-['Roboto'] outline-none "
-                    type="text"
-                    placeholder="Enter Your Subject"
-                  />
-                </div>
+          <div className="w-full flex flex-row flex-wrap sm:justify-between justify-center mb-[50px] sm:gap-[50px] gap-y-[20px]">
+            <div className="flex flex-col sm:w-[28%] w-[92%]">
+              <label>Name:</label>
+              <div className="w-full bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
+                <input
+                  className="w-full rounded-[100px] px-[15px] py-[10px]  bg-[#0F0F0F] font-['Roboto'] outline-none "
+                  type="text"
+                  placeholder="Enter Your Name"
+                />
               </div>
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col sm:w-[28%] w-[92%]">
+              <label>Email:</label>
+              <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
+                <input
+                  className="w-full rounded-[100px] px-[15px] py-[10px] bg-[#0F0F0F] font-['Roboto'] outline-none "
+                  type="text"
+                  placeholder="Enter Your Email"
+                />
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:w-[28%] w-[92%]">
+              <label>Phone Number:</label>
+              <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
+                <input
+                  className="rounded-[100px] px-[15px] py-[10px] w-full bg-[#0F0F0F] font-['Roboto'] outline-none "
+                  type="number"
+                  placeholder="Enter Your Phone Number"
+                />
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:w-[28%] w-[92%]">
+              <label>Select Service:</label>
+              <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] mt-[10px]">
+                <select className="rounded-[100px] px-[15px] py-[10px] w-full bg-[#0F0F0F] font-['Roboto'] outline-none ">
+                  <option value="" disabled selected hidden>
+                    Select an option
+                  </option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </select>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:w-[28%] w-[92%]">
+              <label>Company / Organization Name:</label>
+              <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
+                <input
+                  className="rounded-[100px] px-[15px] py-[10px] w-full bg-[#0F0F0F] font-['Roboto'] outline-none "
+                  type="text"
+                  placeholder="Enter Name"
+                />
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:w-[28%] w-[92%]">
+              <label>Subject:</label>
+              <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[100px] relative mt-[10px]">
+                <input
+                  className="rounded-[100px] px-[15px] py-[10px] w-full bg-[#0F0F0F] font-['Roboto'] outline-none "
+                  type="text"
+                  placeholder="Enter Your Subject"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col justify-center items-center">
+            <div className="w-full">
               <label>Message:</label>
-              <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[20px] relative mt-[10px] sm:mb-[50px] sm:w-auto w-[113%] ">
+              <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[20px] relative mt-[10px] sm:mb-[50px] w-full ">
                 <textarea
                   className="rounded-[20px] px-[15px] py-[10px] bg-[#0F0F0F] font-['Roboto'] outline-none w-[100%] h-[200px] "
                   placeholder="Enter Your Message"
                 />
               </div>
             </div>
-          </div>
-          <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[74px] mb-[50px]  sm:mt-0 mt-[670px]">
-            <div className="flex flex-row justify-center items-center bg-[#1A1A1A] rounded-[74px] px-[20px] py-[14px]">
-              <button className=" font-['Sora'] mr-[10px] text-[#FFFF] ">
-                Send your request
-              </button>
-              <img className="h-[15px]" src={arrowBtn} alt="" />
+            <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[74px] sm:mt-0 mt-[10%] ">
+              <div className="flex flex-row justify-center items-center bg-[#1A1A1A] rounded-[74px] px-[20px] py-[14px]">
+                <button className=" font-['Sora'] mr-[10px] text-[#FFFF] ">
+                  Send your request
+                </button>
+                <img className="h-[15px]" src={arrowBtn} alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-row flex-wrap justify-center items-center gap-[25px] w-full font-['Sora'] ">
-        <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[20px] sm:w-[44%] w-[95%]">
+      <div className="flex flex-row flex-wrap justify-center items-center gap-[25px] w-full font-['Sora']">
+        <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[20px] lg:w-[44%] w-[90%] h-[100%]">
           <div className="bg-[#0F0F0F] rounded-[20px]">
             <div className="flex flex-col justify-start items-start sm:p-[25px] p-[18px] ">
               <div className="flex justify-start items-center pb-[20px]">
@@ -130,7 +131,7 @@ const getInTouch = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[20px] sm:w-[44%] w-[95%]">
+        <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] p-[1px] rounded-[20px] lg:w-[44%] w-[90%]">
           <div className="bg-[#0F0F0F] rounded-[20px]">
             <div className="flex flex-col justify-start items-start sm:p-[25px] p-[18px]">
               <div className="flex justify-start items-center pb-[20px]">

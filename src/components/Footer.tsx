@@ -12,7 +12,7 @@ const Footer = () => {
           </h1>
         </div>
         <div className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] w-full h-[1px] rounded"></div>
-        <div className="flex flex-row justify-between sm:text-[16px] text-[13px] sm:w-[70%] sm:py-[50px] py-[25px] text-[#FFFF] ">
+        <div className="flex flex-row justify-between sm:text-[16px] text-[13px] sm:w-[100%] lg:w-[70%] sm:py-[50px] py-[25px] text-[#FFFF] ">
           <div className="sm:w-auto w-[30%]">
             <h1>Home</h1>
             <br />
@@ -70,7 +70,7 @@ const Footer = () => {
             <p className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] bg-clip-text text-transparent">
               Version 1.0
             </p>
-            <div className="flex flex-row justify-between w-[32%]">
+            <div className="flex flex-row justify-between sm:w-full lg:w-[32%]">
               <a
                 className="bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] bg-clip-text text-transparent"
                 href="#"

@@ -13,7 +13,7 @@ const JoinUs = () => {
       <h1 className="sm:text-[50px] text-[40px] font-['Viga'] font-normal bg-gradient-to-r from-[#007EFF] to-[#0BFAE6] bg-clip-text text-transparent text-center ">
         Join Us on Social Media
       </h1>
-      <p className="sm:text-[25px] text-[20px] sm:w-[770px] w-[360px] text-center text-[#FFFFFF] sm:pb-[65px] pb-[50px]">
+      <p className="sm:text-[25px] text-[20px] w-[90%] text-center text-[#FFFFFF] sm:pb-[65px] pb-[50px]">
         Stay updated with our latest projects, industry insights, and company
         news by following us on social media
       </p>
@@ -23,7 +23,7 @@ const JoinUs = () => {
           src={socialMediaBg}
           alt=""
         />
-        <div className="flex flex-row justify-between items-center sm:w-[32%] w-[85%] pb-[70px] ">
+        <div className="flex flex-row justify-between items-center w-[85%] lg:w-[50%] pb-[70px] ">
           <a href="#">
             <img className="sm:w-auto w-[50px]" src={linkedInBtn} alt="" />
           </a>

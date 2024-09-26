@@ -7,6 +7,7 @@ import {
   dolarSign,
   virified,
   cmd,
+  tabletBg,
 } from "../constants";
 import RotateWords from "./RotateWords";
 
@@ -14,10 +15,11 @@ const Hero = () => {
   return (
     <div className="relative sm:pb-[280px] pb-[325px]">
       <img
-        className="absolute z-10 sm:hidden md:block hidden w-full md:h-[1150px]"
+        className="absolute z-10 sm:hidden lg:block hidden w-full md:h-[1150px]"
         src={heroBg}
         alt=""
       />
+      <img className="absolute w-[110%] z-10 block sm:hidden md:block lg:hidden" src={tabletBg} alt="" />
       <img
         className="absolute w-full z-10 block sm:block md:hidden sm:w-full sm:h-[850px]"
         src={heroBgMobile}

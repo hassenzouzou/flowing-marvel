@@ -27,6 +27,7 @@ import facebookBtn from "../assets/icons/facebookBtn.png";
 import xBtn from "../assets/icons/xBtn.png";
 import youtubeBtn from "../assets/icons/youtubeBtn.png";
 import socialMediaBg from "../assets/icons/socialMediaBg.png";
+import tabletBg from "../assets/icons/tabletBg.png";
 
 export {
   logo,
@@ -57,6 +58,7 @@ export {
   xBtn,
   youtubeBtn,
   socialMediaBg,
+  tabletBg,
 };
 
 // images
